@@ -17,4 +17,15 @@ pipeline{
              }
         }
     }
+    post{
+        always{
+
+        }
+        success{
+
+        }
+        failure{
+        
+        }
+    }
 }
