@@ -1,7 +1,7 @@
 pipeline{
     agent any
     environment{
-        DOCKER IMAGE ="pa1cherry/mmv2-currency-exchange-service:latest"
+        DOCKER_IMAGE ="pa1cherry/mmv2-currency-exchange-service:latest"
     }
     stages{
         stage('Checkout Code'){
